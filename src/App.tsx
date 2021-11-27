@@ -6,8 +6,8 @@ import { AddArea } from './components/AddArea';
 
 const App = () => {
   const [list, setList] = useState<Item[]>([
-    { id: 1, name: 'Osvaldo o gato', done: false },
-    { id: 2, name: 'Osvaldo o chatão', done: true },
+   /* { id: 1, name: 'Osvaldo o gato', done: false },*/
+    /*{ id: 2, name: 'Osvaldo o chatão', done: true },*/
   ]);
 
   const handleAddTask = (taskName: string) => {
